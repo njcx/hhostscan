@@ -1,19 +1,22 @@
-QT += core network
-QT -= gui
+QT += core network gui widgets
 
 CONFIG += c++11 console
 CONFIG -= app_bundle
 
 TEMPLATE = app
 
-SOURCES += main.cpp \
+SOURCES += \
            bannergrabber.cpp \
            httpclient.cpp \
            logutils.cpp \
+           main.cpp \
+           networktoolsapp.cpp \
            timeutils.cpp
 
 HEADERS += httpclient.h \
     bannergrabber.h \
     logutils.h \
+    main.cppp \
+    networktoolsapp.h \
     timeutils.h
 
