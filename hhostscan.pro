@@ -11,6 +11,7 @@ SOURCES += \
            logutils.cpp \
            main.cpp \
            networktoolsapp.cpp \
+           pinger.cpp \
            timeutils.cpp
 
 HEADERS += httpclient.h \
@@ -18,5 +19,6 @@ HEADERS += httpclient.h \
     logutils.h \
     main.cppp \
     networktoolsapp.h \
+    pinger.h \
     timeutils.h
 

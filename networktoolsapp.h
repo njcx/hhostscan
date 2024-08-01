@@ -16,6 +16,7 @@ public:
 
 private:
     QWidget* createPortScanTab();
+    QWidget* createPingScanTab();
 
     QTabWidget *tabWidget;
     QTextEdit *resultArea;
